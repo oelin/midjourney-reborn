@@ -2,4 +2,6 @@
 
 A Discord bot for all your Midjourney needs!
 
-<img src='art.jpg'>
+<div align=left>
+<img src='art.jpg' width=60%>
+</div>
