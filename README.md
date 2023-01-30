@@ -18,7 +18,7 @@ In the near future we hope to add support for features such as upscailing, varia
 
 ## Technologies
 
-This bot utilizes [discord.js](https://discord.js.org/#/) and [Midjourney Client](https://github.com/oelin/midjourney-client) to enable access to Midjourney V4 from within Discord. The underlying images are generated on fast GPUs provided by [Replicate](https://replicate.com).
+This bot utilizes [discord.js](https://discord.js.org/#/) and [Midjourney Client](https://github.com/oelin/midjourney-client) to enable Midjourney V4 access from within Discord. The underlying images are generated on fast GPUs provided by [Replicate](https://replicate.com).
 
 
 ## Resources
