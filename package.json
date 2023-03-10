@@ -4,7 +4,7 @@
   "description": "A Discord bot for all your Midjourney needs!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ."
   },
   "author": "",
   "license": "ISC",
