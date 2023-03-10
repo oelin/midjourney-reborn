@@ -7,6 +7,27 @@ A Discord bot for all your Midjourney needs! Use this bot to convert text prompt
 </div>
 
 
+## Usage
+
+To run this demo, clone the repository and then create a `config.json` file containing your bot's token. Then run with `npm`.
+
+```sh
+git clone https://github.com/oelin/midjourney-reborn/
+
+cd midjourney-reborn
+```
+
+```sh
+echo {"token": "YOUR TOKEN"} > ./config.json
+```
+
+```sh
+npm i
+
+npm start
+```
+
+
 ## Commands
 
 This project is in active development so expect lots of changes to this section. Currenlty the primary command supported is `/imagine [prompt]`, which can be used to generate images with Midjourney. For instance, `/imagine an astronaut riding a horse on mars artstation` might produce the following image:
