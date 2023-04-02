@@ -22,7 +22,14 @@ module.exports = {
                         }
 
                         const imageURLs = response.join('\n')
+                        
+                                if (interaction.channel.nsfw === true) {
+                        
                         interaction.editReply(`**${prompt}**\n${imageURLs}`)
+                                
+                               }else {            
+                           interaction.editReply({content: 'Must be a Age Restricted channel to function', ephemeral: true });
+                       } 
 
                 })
 
