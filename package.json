@@ -4,6 +4,7 @@
   "description": "A Discord bot for all your Midjourney needs!",
   "main": "index.js",
   "scripts": {
+    "deploy": "node deploy-commands.js",
     "start": "node ."
   },
   "author": "",
