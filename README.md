@@ -9,7 +9,7 @@ A Discord bot for all your Midjourney needs! Use this bot to convert text prompt
 
 ## Usage
 
-To run this demo, clone the repository and then create a `config.json` file containing your bot's token. Then run with `npm`.
+To run this demo, clone the repository and then create a `config.json` file containing your bot's token.
 
 ```sh
 git clone https://github.com/oelin/midjourney-reborn/
@@ -21,8 +21,12 @@ cd midjourney-reborn
 echo {"token": "YOUR TOKEN"} > ./config.json
 ```
 
+Then run the following commands to install start the bot.
+
 ```sh
 npm i
+
+npm run deploy
 
 npm start
 ```
